@@ -1,4 +1,18 @@
 
-<div>
-<app-first-component [Inputdata]="data"></app-first-component>
+
+<nav  [class]="default_input" >
+       
+    <a routerLink="" routerLinkActive="active" ariaCurrentWhenActive="page" class="bar-item button-style">Home</a>
+    <a  class="bar-item button-style">Contact</a>
+    <a  class="bar-item button-style">Gallery</a>
+    <a routerLink="/about" routerLinkActive="active" ariaCurrentWhenActive="page" class="bar-item button-style">About</a>
+
+</nav>
+
+<div  class="top-menu" >
+    <div   (click)="showMenu()" class="button-style menu" style=" font-size: 40px!important;">☰</div>
+    <h2 class="title" style="font-size:40px!important"> My artistic portfolio </h2>
+
 </div>
+
+<router-outlet></router-outlet>

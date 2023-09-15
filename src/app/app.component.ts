@@ -1,25 +1,26 @@
-import { Component,OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { Component,Input} from '@angular/core';
+
 import { Dataposts } from './dataposts';
-import { Data } from '@angular/router';
+import { Routes, RouterModule } from '@angular/router'; 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss','../styles.scss']
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   title = 'webpage_angular';
-  data:Dataposts[] = [];
-  public constructor(private http:HttpClient){
+  
+  @Input() class = '';
+  default_input = "sidebar-hidden";
+  open = false;
+  showMenu(){
 
-  };
-  public ngOnInit(): void {
-    const url:string ='/assets/posts.json'
-    this.http.get<Dataposts[]>(url).subscribe((response)=>
-    {
-      this.data = response;
-
+    if(this.open === false){
+      this.default_input = "sidebar animate-left";
+      this.open = true;
+    }else{
+      this.default_input = "sidebar-hidden";
+      this.open = false;
     }
-    )
   }
 }
