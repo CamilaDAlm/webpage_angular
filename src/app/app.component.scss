@@ -1,0 +1,16 @@
+@use '../styles.scss';
+
+
+div {
+  font: 100% styles.$font-stack;
+  color: styles.$primary-color;
+  background-color: styles.$background-color;
+  position: relative;
+  top: 0; 
+  left: 0; 
+  right: 0;
+  height: 60px;
+  
+  align-items: center;  
+  font-weight: 600;
+}

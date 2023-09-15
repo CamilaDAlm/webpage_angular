@@ -1,0 +1,47 @@
+[
+
+    {
+        "albumId": 1,
+        "id": 1,
+        "name" : "Water lilies",
+        "title": "accusamus beatae ad facilis cum similique qui sunt",
+        "url": "https://media.admagazine.com/photos/64530b2f73d7f735d6aa5430/master/w_2560%2Cc_limit/lirios-monet.jpg"
+      },
+      {
+        "albumId": 1,
+        "id": 2,
+        "name" : "Water lilies",
+        "title": "Sed soluta magnam iste vero cum ea. ",
+        "url": "https://img2.rtve.es/i/?w=1600&i=1411058437648.jpg"
+      },
+      {
+        "albumId": 1,
+        "id": 3,
+        "name" : "Water lilies",
+        "title": "officia porro iure quia iusto qui ipsa ut modi",
+        "url": "https://cdn.shopify.com/s/files/1/2658/9826/files/Nenufares_480x480.jpg?v=1645104999"
+      },
+      {
+        "albumId": 1,
+        "id": 3,
+        "name" : "Water lilies",
+        "title": "officia porro iure quia iusto qui ipsa ut modi",
+        "url": "https://cloudfront-us-east-1.images.arcpublishing.com/infobae/J2VP5NQT5ZHN7HUZ2CIN3HWSNU.jpg"
+      },
+      {
+        "albumId": 1,
+        "id": 3,
+        "name" : "Water lilies",
+        "title": "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+        "url": "https://fahrenheitmagazine.b-cdn.net/sites/default/files/styles/desktop2/public/wp-content/uploads/2019/10/monet4.jpg"
+      },
+      {
+        "albumId": 1,
+        "id": 3,
+        "name" : "Water lilies",
+        "title": "Perferendis at, hic possimus vel cumque nostrum eveniet.",
+        "url": "https://www.salirconarte.com/wp-content/uploads/2017/08/monet-water-lilies-and-japanese-bridge-copia.jpg"
+      }
+
+
+]

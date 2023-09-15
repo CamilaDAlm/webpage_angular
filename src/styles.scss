@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+$color-button:rgba(71, 64, 141, 0.897);
+$font-stack: Helvetica, sans-serif;
+$primary-color: #7D8CC4;
+$background-color:rgb(17, 2, 56);
+$background-color-transparent:rgba(17, 2, 56, 0.637);
+$dropdown-hover:#a29beb;
+body {
+    font: 100% $font-stack;
+    color: $primary-color;
+    background-color: $background-color;
+  }

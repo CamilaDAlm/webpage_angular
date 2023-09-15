@@ -1,0 +1,68 @@
+
+
+<nav  [class]="default_input" >
+       
+    <a  class="bar-item button-style">Home</a>
+    <a  class="bar-item button-style">Contact</a>
+    <a  class="bar-item button-style">Gallery</a>
+    <a  class="bar-item button-style">About</a>
+
+</nav>
+
+<div  class="top-menu" >
+    <div   (click)="showMenu()" class="button-style menu">☰</div>
+    <h2 class="title"> My artistic portfolio </h2>
+
+</div>
+
+<!----Content-->
+<div class="content-container">
+  <div class="content-table">
+      <div *ngFor="let data of Inputdata" class="content-element">
+        <img [src]=data.url  />
+        <h3>{{data["name"]}}</h3>
+        <p> {{data["title"]}} </p>
+      </div>
+
+  </div>
+ 
+
+</div>
+
+<!-----
+<div class="content-element">
+      <img src="https://media.admagazine.com/photos/64530b2f73d7f735d6aa5430/master/w_2560%2Cc_limit/lirios-monet.jpg" style="width:100%;" />
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repellat dolor soluta enim. Explicabo tempora quasi ipsum, dolore consequatur accusamus, officia placeat soluta laudantium asperiores eveniet repellat minima dolores fugit!</p>
+      
+    </div>
+    <div class="content-element">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus repellat dolor soluta enim. Explicabo tempora quasi ipsum, dolore consequatur accusamus, officia placeat soluta laudantium asperiores eveniet repellat minima dolores fugit!</p>
+      
+    </div>
+
+
+<div>
+<div [ngClass]="[default]" [id]="default_input" (click)="showMenu(id)" class="button-style menu">☰</div>
+    <h3>My website</h3>
+    <nav class="sidebar animate-left">
+       
+        <a  class="bar-item button-style">Home</a>
+        <a  class="bar-item button-style">Link 1</a>
+  
+  </nav>
+    <div class="menu">
+        <div>☰</div>
+    </div>
+      <div class="dropdown-hover">
+        <button class="button-style" >Dropdown</button>
+        <div  class="dropdown-content ">
+          <a  class="bar-item button-style">Link 1</a>
+          <a  class="bar-item button-style">Link 2</a>
+          <a  class="bar-item button-style">Link 3</a>
+        </div>
+    </div>
+     
+{{counter}} <button (click)="setCounter()">Click Me</button>
+
+</div>
+--->
